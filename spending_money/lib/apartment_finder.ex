@@ -1,6 +1,6 @@
-defmodule ApartmentFinder do
+defmodule SpendingMoney do
   @moduledoc """
-  Documentation for ApartmentFinder.
+  Documentation for SpendingMoney.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule ApartmentFinder do
 
   ## Examples
 
-      iex> ApartmentFinder.hello
+      iex> SpendingMoney.hello
       :world
 
   """

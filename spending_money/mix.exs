@@ -1,8 +1,8 @@
-defmodule ApartmentFinder.Mixfile do
+defmodule SpendingMoney.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :apartment_finder,
+    [app: :spending_money,
      version: "0.1.0",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
@@ -16,7 +16,7 @@ defmodule ApartmentFinder.Mixfile do
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
     [extra_applications: [:logger, :quantum],
-     mod: {ApartmentFinder.Application, []}]
+     mod: {SpendingMoney.Application, []}]
   end
 
   # Dependencies can be Hex packages:

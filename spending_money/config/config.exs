@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :apartment_finder, key: :value
+#     config :spending_money, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:apartment_finder, :key)
+#     Application.get_env(:spending_money, :key)
 #
 # Or configure a 3rd-party app:
 #

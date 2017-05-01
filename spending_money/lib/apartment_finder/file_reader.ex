@@ -1,4 +1,4 @@
-defmodule ApartmentFinder.FileReader do
+defmodule SpendingMoney.FileReader do
     def get_apartments(path) do
         File.read!(path)
         |> String.split("\n")
