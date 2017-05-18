@@ -15,7 +15,7 @@ defmodule SpendingMoney.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications: [:logger, :quantum],
+    [extra_applications: [:logger, :quantum, :extwitter],
      mod: {SpendingMoney.Application, []}]
   end
 
@@ -30,6 +30,8 @@ defmodule SpendingMoney.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:credo, "~> 0.4.11"},
-  {:quantum, "~> 1.8"}]
+     {:quantum, "~> 1.8"},
+     {:extwitter, "~> 0.8.3"},
+     {:oauther, "~> 1.1"}]
   end
 end
